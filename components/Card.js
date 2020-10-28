@@ -21,9 +21,9 @@ export function Card(props) {
                 }
             </div>
             {image && orientation === "top" &&
-            <Image className={styles.card__image} src={image} width={500}
-            height={500} />
-            // <img className={styles.card__image} src={image}/>
+//             <Image className={styles.card__image} src={image} width={500}
+//             height={500} />
+            <img className={styles.card__image} src={image}/>
             }
         </a>
     );
