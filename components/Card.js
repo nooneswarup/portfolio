@@ -1,4 +1,5 @@
 import styles from "./Card.module.scss";
+import Image from 'next/image'
 
 export function Card(props) {
 
@@ -20,7 +21,9 @@ export function Card(props) {
                 }
             </div>
             {image && orientation === "top" &&
-            <img className={styles.card__image} src={image}/>
+            <Image className={styles.card__image} src={image} width={500}
+            height={500} />
+            // <img className={styles.card__image} src={image}/>
             }
         </a>
     );
