@@ -1,5 +1,5 @@
 import styles from "./Card.module.scss";
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export function Card(props) {
 
